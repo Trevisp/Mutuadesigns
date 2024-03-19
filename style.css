@@ -35,6 +35,7 @@ body {
   .btn{
     background-color: #17BEBB;
     color: white;
+    border-radius: 3px;
   }
   .btn:hover{
     color: #000000;
