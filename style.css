@@ -211,7 +211,7 @@ body {
     }
     .btn-lg {
       margin-bottom: 35px;
-      padding:2%;
+      border-radius: 0% 25% 25% 29% / 25% 42% 0% 42%;
     }
   }
   @media screen and (max-width: 480px) {
