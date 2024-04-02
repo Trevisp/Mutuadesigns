@@ -35,7 +35,7 @@ body {
   .btn{
     background-color: #17BEBB;
     color: white;
-    border-radius: 3px;
+    border-radius: 25% 46% 25% 43% / 0% 43% 0% 35%;
   }
   .btn:hover{
     color: #000000;
@@ -43,8 +43,8 @@ body {
   .btn-lg{
     background-color:#17bebb;
     border: none;
-    border-radius: 3px;
-    padding:3%;
+    border-radius: 25% 46% 25% 43% / 0% 43% 0%                  35%;    
+padding:3%;
   }
   .container-fluid {
     padding: 60px 50px;
