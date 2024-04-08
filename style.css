@@ -37,7 +37,7 @@ body {
     background-color: #17BEBB;
     color: white;
     border-radius: 25% 25% 25% 25% / 0% 25% 0% 25%;
-padding:2%;
+padding:10px;
   }
   .btn:hover{
     color: #000000;
@@ -46,7 +46,7 @@ padding:2%;
     background-color:#17bebb;
     border: none;
      border-radius: 25% 25% 25% 25% / 0% 25% 0% 25%;   
-padding:3%;
+padding:10px;
   }
   .container-fluid {
     padding: 60px 50px;
