@@ -22,11 +22,11 @@ body {
     text-align: left;
   }  
   .jumbotron {
+    background-image:url("webillustration.jpg");
     background-color:#0E7C7B;
     color: #fff;
     padding: 100px 25px;
-    font-family: Montserrat, sans-serif;
-    background-image:url("webillustration.jpg");
+    font-family: Montserrat, sans-serif;  
 }
   h1{
     font-family: "Protest Guerrilla", sans-serif;
