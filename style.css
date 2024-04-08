@@ -26,7 +26,7 @@ body {
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
-   background-image:url(webillustration.jpg);
+    background-image:url("webillustration.jpg");
 }
   h1{
     font-family: "Protest Guerrilla", sans-serif;
