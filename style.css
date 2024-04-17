@@ -22,11 +22,11 @@ body {
     text-align: left;
   }  
   .jumbotron {
-    background-color:#0E7C7B;
+    background-color: #0E7C7B; 
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
-  }
+}
   h1{
     font-family: "Protest Guerrilla", sans-serif;
     font-weight: 400;
@@ -35,6 +35,7 @@ body {
   .btn{
     background-color: #17BEBB;
     color: white;
+    border-radius: 25% 25% 25% 25% / 0% 25% 0% 25%;
   }
   .btn:hover{
     color: #000000;
@@ -42,6 +43,7 @@ body {
   .btn-lg{
     background-color:#17bebb;
     border: none;
+    border-radius: 25% 25% 25% 25% / 0% 25% 0% 25%;
   }
   .container-fluid {
     padding: 60px 50px;
@@ -93,6 +95,7 @@ body {
     border: 1px solid #0e7c7b; 
     border-radius:0 !important;
     transition: box-shadow 0.5s;
+    height: 700px;
   }
   .panel:hover {
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
@@ -207,7 +210,6 @@ body {
       margin: 25px 0;
     }
     .btn-lg {
-      width: 100%;
       margin-bottom: 35px;
     }
   }
