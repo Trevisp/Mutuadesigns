@@ -17,9 +17,9 @@
 
 </head>
    <div class="loader" id="loader">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+        <span class="barr"></span>
+        <span class="barr"></span>
+        <span class="barr"></span>
     </div>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -356,6 +356,14 @@ $(document).ready(function(){
 
 
 
+</script>
+<script>
+   window.onload = function() {
+            let loader = document.getElementById('loader');
+            let content = document.getElementById('content');
+            loader.style.display = 'none'; // Hide the loader
+            content.style.display = 'block'; // Display the content
+        };
 </script>
 
 </body>
