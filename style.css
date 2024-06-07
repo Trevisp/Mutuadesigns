@@ -253,3 +253,34 @@ body {
       transform: scaleY(1);
     }
   }
+.loader {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Center loader horizontally */
+            height: 100vh; /* Full viewport height */
+        }
+        .barr {
+            display: inline-block;
+            width: 3px;
+            height: 20px;
+            background-color: #0e7c7b;
+            border-radius: 10px;
+            animation: scale-up4 1s linear infinite;
+        }
+        .barr:nth-child(2) {
+            height: 35px;
+            margin: 0 5px;
+            animation-delay: .25s;
+        }
+        .barr:nth-child(3) {
+            animation-delay: .5s;
+        }
+        @keyframes scale-up4 {
+            20% {
+                background-color: #17bebb; /* Corrected color to white */
+                transform: scaleY(1.5);
+            }
+            40% {
+                transform: scaleY(1);
+            }
+        }
