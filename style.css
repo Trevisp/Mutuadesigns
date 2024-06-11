@@ -22,7 +22,7 @@ body {
     text-align: left;
   }  
   .jumbotron {
-    background-image:url("webillustration.jpg");
+    background-image:url("webb.png");
     background-color:#0E7C7B;
     color: #fff;
     padding: 100px 25px;
@@ -39,7 +39,9 @@ body {
     border-radius: 25% 25% 25% 25% / 0% 25% 0% 25%;
   }
   .btn:hover{
-    color: #000000;
+    border: 1px solid #0e7c7b;
+    background-color: #fff !important;
+    color: #0e7c7b;
   }
   .btn-lg{
     background-color:#17bebb;
@@ -289,4 +291,59 @@ body {
             40% {
                 transform: scaleY(1);
             }
+        }
+        .progress{
+          width: 80%;
+          height: 30px;
+          background-color: #fff;
+          border-radius: 15px;
+        }
+        .progress-one{
+          width:80%;
+          height:30px;
+          background-color:#17bebb;
+          text-align: right;
+          color:#fff;
+          border-radius: 15px;
+
+        }
+        .progress-two{
+          width:75%;
+          height:30px;
+          background-color:#17bebb;
+          text-align: right;
+          color:#fff;
+          border-radius: 15px;
+        }
+        .progress-three{
+          width:60%;
+          height:30px;
+          background-color:#17bebb;
+          text-align: right;
+          color:#fff;
+          border-radius: 15px;
+        }
+        .progress-four{
+          width:85%;
+          height:30px;
+          background-color:#17bebb;
+          text-align: right;
+          color:#fff;
+          border-radius: 15px;
+        }
+        .progress-five{
+          width:65%;
+          height:30px;
+          background-color:#17bebb;
+          text-align: right;
+          color:#fff;
+          border-radius: 15px;
+        }
+        .progress-six{
+          width:50%;
+          height:30px;
+          background-color:#17bebb;
+          text-align: right;
+          color:#fff;
+          border-radius: 15px;
         }
